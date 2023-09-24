@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Caveat&family=Croissant+One&family=Raleway&display=swap');
+
+
+body {
+    background-color:rgb(241, 176, 110);
+    overflow: hidden;
+}
+
+
+.Heading {
+    text-align: center;
+
+}
+.Recipe-heading {
+    color:rgba(50, 28, 101, 0.671) ;
+    font-family: 'Anton', sans-serif;
+    font-size: 2rem;
+    position: relative;
+    animation: recipeHeading;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+@keyframes recipeHeading {
+    0% {top: -250px}
+    100% {top: 20px}
+}   
+.Ingredients {
+    border: 2px solid black ;
+    width: 40%;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    position: relative;
+    animation: ingredients;
+    animation-duration: 4s;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes ingredients {
+    0% {right: -1500px}
+    85% {right: 50px}
+    100% {right : 0px}
+    
+}
+
+
+.Ingredients-table {
+    border: 1px solid black;
+    margin: 0 auto;
+}
+
+
+.Ing-Amo {
+    color: purple;
+}
+
+
+.Eggs-vol1 {
+    color: darkslategray;
+}
+
+
+.Salt-vol1 {
+    color: darkslategray;
+}
+
+
+.Pepper-vol1 {
+    color: darkslategray;
+}
+
+
+.Milk-vol1 {
+    color: darkslategray;
+}
+
+
+.Instructions {
+    border: 2px solid black;
+    width: 40%;
+    margin: 0 auto;
+    position: relative;
+    animation: instructions;
+    animation-duration: 4s;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes instructions {
+    0% {left: -1500px}
+    85% {left: 50px}
+    100% {left : 0px}
+}
+
+.pictureomelette{
+    opacity: 0;
+    width: 300px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  animation: picture;
+    animation-duration: 2s;
+    animation-delay: 3.5s;
+    animation-fill-mode: forwards;
+}
+@keyframes picture {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+    
+}
+.Instructions ol {
+    margin: 3 auto;
+    width: 40% ;
+    color: darkblue;
+}
+
+.Ins-vol1 {
+    color: green;
+}
+.footer  {
+    color: brown;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Raleway', sans-serif;
+    position: relative;
+    animation: footer;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes footer {
+    0% {bottom: -1000px}
+    100% {bottom: 5px}
+}
